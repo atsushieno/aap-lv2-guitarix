@@ -1,0 +1,2 @@
+rootProject.name = 'aap-lv2-guitarix'
+include ':aap-guitarix'

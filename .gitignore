@@ -1,0 +1,15 @@
+.gradle
+.idea
+.cxx
+local.properties
+/*/build
+build
+*.lv2
+jniLibs
+aap_metadata.xml
+
+aap-guitarix-binaries.zip
+androidaudioplugin-debug.aar
+
+dependencies/guitarix-deps/
+dependencies/androidaudioplugin-aar/

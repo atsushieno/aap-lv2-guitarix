@@ -1,0 +1,3 @@
+[submodule "external/aap-lv2"]
+	path = external/aap-lv2
+	url = https://github.com/atsushieno/aap-lv2.git
