@@ -23,7 +23,7 @@ dependencies/guitarix-deps/dist/stamp: aap-guitarix-binaries.zip
 	touch dependencies/guitarix-deps/dist/stamp
 
 aap-guitarix-binaries.zip:
-	wget https://github.com/atsushieno/android-native-audio-builders/releases/download/r8.2/aap-guitarix-binaries.zip
+	wget https://github.com/atsushieno/android-native-audio-builders/releases/download/r8.3/aap-guitarix-binaries.zip
 
 androidaudioplugin-debug.aar:
 	wget https://github.com/atsushieno/android-audio-plugin-framework/releases/download/v0.5.5/androidaudioplugin-debug.aar
