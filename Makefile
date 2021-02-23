@@ -1,6 +1,8 @@
 
+PWD=$(shell pwd)
+AAP_LV2_DIR=$(PWD)/external/aap-lv2
 ABIS_SIMPLE= x86 x86_64 armeabi-v7a arm64-v8a
-ANDROID_NDK=$(ANDROID_SDK_ROOT)/ndk/21.2.6472646
+ANDROID_NDK=$(ANDROID_SDK_ROOT)/ndk/21.3.6528147
 
 all: build-all
 
@@ -9,6 +11,9 @@ build-all: \
 	get-guitarix-deps \
 	import-guitarix-deps \
 	build-java
+
+build-aap-lv2:
+	cd $(AAP_LV2_DIR) && make
 
 ## downloads
 
@@ -25,18 +30,12 @@ dependencies/guitarix-deps/dist/stamp: aap-guitarix-binaries.zip
 aap-guitarix-binaries.zip:
 	wget https://github.com/atsushieno/android-native-audio-builders/releases/download/r8.3/aap-guitarix-binaries.zip
 
-androidaudioplugin-debug.aar:
-	wget https://github.com/atsushieno/android-audio-plugin-framework/releases/download/v0.5.5/androidaudioplugin-debug.aar
-
 # Run importers
 
 import-guitarix-deps:
 	./import-guitarix-deps.sh
 
 ## Build utility
-
-build-aap-lv2:
-	cd external/aap-lv2 && make build-non-app
 
 build-java:
 	ANDROID_SDK_ROOT=$(ANDROID_SDK_ROOT) ./gradlew build
