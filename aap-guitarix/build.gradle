@@ -42,6 +42,7 @@ android {
     }
     externalNativeBuild {
         cmake {
+            path "src/main/cpp/CMakeLists.txt"
         }
     }
 
@@ -61,7 +62,7 @@ dependencies {
     implementation "org.androidaudioplugin:androidaudioplugin-lv2:$aap_lv2_version"
     implementation "org.androidaudioplugin:androidaudioplugin:$aap_version"
     implementation "org.androidaudioplugin:androidaudioplugin-ui-compose:$aap_version"
-
+    implementation project(":fftw3-aar")
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation "org.androidaudioplugin:androidaudioplugin:$aap_version"

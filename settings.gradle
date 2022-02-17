@@ -1,2 +1,3 @@
 rootProject.name = 'aap-lv2-guitarix'
+include ':fftw3-aar'
 include ':aap-guitarix'
