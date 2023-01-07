@@ -1,6 +1,6 @@
-# aap-lv2-guitarix: Guitarix plugin for AAP via LV2
+# aap-lv2-guitarix: Guitarix plugin for Audio Plugins For Android via LV2
 
-This repository is a port of [Guitarix](https://github.com/brummer10/guitarix) plugins to [AAP](https://github.com/atsushieno/android-audio-plugin-framework/). It is powered by LV2 using [aap-lv2](https://github.com/atsushieno/aap-lv2/).
+This repository is a port of [Guitarix](https://github.com/brummer10/guitarix) plugins to [AAP](https://github.com/atsushieno/aap-core/). It is powered by LV2 using [aap-lv2](https://github.com/atsushieno/aap-lv2/).
 
 ## Building
 
