@@ -22,8 +22,8 @@ get-guitarix-deps: dependencies/guitarix-deps/dist/stamp
 dependencies/guitarix-deps/dist/stamp: aap-guitarix-binaries.zip
 	unzip aap-guitarix-binaries.zip -d dependencies/guitarix-deps/
 	for a in $(ABIS_SIMPLE) ; do \
-		mkdir -p aap-guitarix/src/main/jniLibs/$$a ; \
-		cp -R dependencies/guitarix-deps/dist/$$a/lib/*.so aap-guitarix/src/main/jniLibs/$$a ; \
+		mkdir -p app/src/main/jniLibs/$$a ; \
+		cp -R dependencies/guitarix-deps/dist/$$a/lib/*.so app/src/main/jniLibs/$$a ; \
 	done
 	touch dependencies/guitarix-deps/dist/stamp
 
