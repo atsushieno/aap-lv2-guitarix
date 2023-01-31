@@ -28,7 +28,7 @@ dependencies/guitarix-deps/dist/stamp: aap-guitarix-binaries.zip
 	touch dependencies/guitarix-deps/dist/stamp
 
 aap-guitarix-binaries.zip:
-	wget https://github.com/atsushieno/android-native-audio-builders/releases/download/r8.3/aap-guitarix-binaries.zip
+	curl -O -L https://github.com/atsushieno/android-native-audio-builders/releases/download/r8.3/aap-guitarix-binaries.zip
 
 # Run importers
 
@@ -38,5 +38,5 @@ import-guitarix-deps:
 ## Build utility
 
 build-java:
-	ANDROID_SDK_ROOT=$(ANDROID_SDK_ROOT) ./gradlew build
+	ANDROID_SDK_ROOT=$(ANDROID_SDK_ROOT) ./gradlew build bundle
  

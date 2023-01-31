@@ -55,17 +55,16 @@ android {
 }
 
 dependencies {
-    implementation "org.androidaudioplugin:androidaudioplugin-lv2:$aap_lv2_version"
-    implementation "org.androidaudioplugin:androidaudioplugin:$aap_version"
-    implementation "org.androidaudioplugin:androidaudioplugin-ui-compose:$aap_version"
+    implementation libs.aap.lv2
+    implementation libs.aap.core
+    implementation libs.aap.ui.compose
 
-
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation "org.androidaudioplugin:androidaudioplugin:$aap_version"
-    androidTestImplementation "org.androidaudioplugin:androidaudioplugin-testing:$aap_version"
-    androidTestImplementation 'androidx.test:core:1.4.0'
-    androidTestImplementation 'androidx.test:rules:1.4.0'
-    androidTestImplementation 'androidx.test:runner:1.4.0'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    testImplementation libs.junit
+    //androidTestImplementation libs.aap.core
+    androidTestImplementation libs.aap.testing
+    androidTestImplementation libs.test.core
+    androidTestImplementation libs.test.rules
+    androidTestImplementation libs.test.runner
+    androidTestImplementation libs.test.ext.junit
 }
 
