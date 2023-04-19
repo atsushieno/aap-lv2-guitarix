@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion 33
+    compileSdk = 33
 
     defaultConfig {
         applicationId "org.androidaudioplugin.ports.lv2.guitarix"
-        minSdkVersion 29
-        targetSdkVersion 33
+        minSdk = 29
+        targetSdk = 33
         versionCode 1
         versionName libs.versions.aap.lv2.get()
 
@@ -32,17 +32,6 @@ android {
     buildFeatures {
         prefab true
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
-    externalNativeBuild {
-        cmake {
-        }
-    }
 
     packagingOptions{
         // for debugging and ASan settings
@@ -55,9 +44,10 @@ android {
 }
 
 dependencies {
-    implementation libs.aap.lv2
     implementation libs.aap.core
+    implementation libs.aap.lv2
     implementation libs.aap.ui.compose
+    implementation libs.aap.ui.web
 
     testImplementation libs.junit
     //androidTestImplementation libs.aap.core

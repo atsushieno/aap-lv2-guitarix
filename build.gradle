@@ -2,10 +2,6 @@
 
 buildscript {
     ext.kotlin_version = libs.versions.kotlin
-    ext.compose_version = libs.versions.compose
-    ext.aap_version = libs.versions.aap.core
-    ext.aap_lv2_version = libs.versions.aap.lv2
-    ext.ndk_version = libs.versions.ndk
     ext.enable_asan = false
 
     repositories {
