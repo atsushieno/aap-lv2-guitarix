@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
+    namespace 'org.androidaudioplugin.ports.lv2.guitarix'
     compileSdk = 33
 
     defaultConfig {
         applicationId "org.androidaudioplugin.ports.lv2.guitarix"
         minSdk = 29
-        targetSdk = 33
         versionCode 1
         versionName libs.versions.aap.lv2.get()
 
@@ -41,6 +41,9 @@ android {
     }
 
     ndkVersion libs.versions.ndk.get()
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
 }
 
 dependencies {

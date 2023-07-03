@@ -6,7 +6,6 @@ local.properties
 build
 *.lv2
 jniLibs
-aap_metadata.xml
 
 aap-guitarix-binaries.zip
 androidaudioplugin-debug.aar

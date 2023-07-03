@@ -24,7 +24,8 @@ class PluginTest {
         assert(services.any { s -> s.packageName == "org.androidaudioplugin.ports.lv2.guitarix" && s.label == "AAPBareBoneSamplePlugin" })
     }
 
-    @Test
+    // testSinglePluginInformation() is not suitable for this plugin (guitarix has 70+ plugins)
+    //@Test
     fun testPluginInfo() {
         testing.testSinglePluginInformation {
             Assert.assertEquals("lv2:http://guitarix.sourceforge.net/plugins/gx_aclipper_#_aclipper_", it.pluginId)
