@@ -1,11 +1,11 @@
 <plugins xmlns="urn:org.androidaudioplugin.core" xmlns:pp="urn:org.androidaudioplugin.port">
   <plugin backend="LV2" name="GxRat" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_aclipper_#_aclipper_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -16,11 +16,11 @@
   </plugin>
   <plugin backend="LV2" name="Gx Alembic" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_alembic#alembic" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -31,11 +31,11 @@
   </plugin>
   <plugin backend="LV2" name="GxAmplifier-X" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_amp#GUITARIX" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -46,11 +46,11 @@
   </plugin>
   <plugin backend="LV2" name="GxAmplifier-Stereo-X" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_amp_stereo#GUITARIX_ST" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -63,11 +63,11 @@
   </plugin>
   <plugin backend="LV2" name="GxBarkGraphicEQ" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_barkgraphiceq_#_barkgraphiceq_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -78,11 +78,11 @@
   </plugin>
   <plugin backend="LV2" name="GxBigMuffPi" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_bmp_#_bmp_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -93,11 +93,11 @@
   </plugin>
   <plugin backend="LV2" name="GxBoss DS1" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_bossds1_#_bossds1_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -108,11 +108,11 @@
   </plugin>
   <plugin backend="LV2" name="GxCabinet" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_cabinet#CABINET" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -123,11 +123,11 @@
   </plugin>
   <plugin backend="LV2" name="GxChorus-Stereo" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_chorus_stereo#_chorus_stereo" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -140,11 +140,11 @@
   </plugin>
   <plugin backend="LV2" name="GxWahwah" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_colwah_#_colwah_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -155,11 +155,11 @@
   </plugin>
   <plugin backend="LV2" name="GxCompressor" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_compressor#_compressor" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -170,11 +170,11 @@
   </plugin>
   <plugin backend="LV2" name="GxColorSound Tonebender" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_cstb_#_cstb_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -185,11 +185,11 @@
   </plugin>
   <plugin backend="LV2" name="GxDelay-Stereo" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_delay_stereo#_delay_stereo" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -202,11 +202,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxdetune" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_detune_#_detune_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -217,11 +217,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxdigital_delay" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_digital_delay_#_digital_delay_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -232,11 +232,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxdigital_delay_st" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_digital_delay_st_#_digital_delay_st_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -249,11 +249,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxduck_delay" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_duck_delay_#_duck_delay_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -264,11 +264,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxduck_delay_st" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_duck_delay_st_#_duck_delay_st_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -281,11 +281,11 @@
   </plugin>
   <plugin backend="LV2" name="GxEcho-Stereo" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_echo_stereo#_echo_stereo" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -298,11 +298,11 @@
   </plugin>
   <plugin backend="LV2" name="GxExpander" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_expander#_expander" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -313,11 +313,11 @@
   </plugin>
   <plugin backend="LV2" name="GxFlanger" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_flanger#_flanger" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -328,11 +328,11 @@
   </plugin>
   <plugin backend="LV2" name="GxFuzzMaster" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_fumaster_#_fumaster_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -343,11 +343,11 @@
   </plugin>
   <plugin backend="LV2" name="GxFuzz" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_fuzz_#fuzz_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -358,11 +358,11 @@
   </plugin>
   <plugin backend="LV2" name="GxFuzzFaceJH2" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_fuzzface_#_fuzzface_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -373,11 +373,11 @@
   </plugin>
   <plugin backend="LV2" name="GxFuzzFaceFuller" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_fuzzfacefm_#_fuzzfacefm_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -388,11 +388,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxgcb_95" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_gcb_95_#_gcb_95_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -403,11 +403,11 @@
   </plugin>
   <plugin backend="LV2" name="GxGraphicEQ" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_graphiceq_#_graphiceq_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -418,11 +418,11 @@
   </plugin>
   <plugin backend="LV2" name="GxHF_Brightener" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_hfb_#_hfb_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -433,11 +433,11 @@
   </plugin>
   <plugin backend="LV2" name="GxHogsFoot" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_hogsfoot_#_hogsfoot_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -448,11 +448,11 @@
   </plugin>
   <plugin backend="LV2" name="GxHornet" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_hornet_#_hornet_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -463,11 +463,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxjcm800pre" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_jcm800pre_#_jcm800pre_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -478,11 +478,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxjcm800preST" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_jcm800pre_st#_jcm800pre_st" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -495,11 +495,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxlivelooper" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_livelooper_#_livelooper_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -510,11 +510,11 @@
   </plugin>
   <plugin backend="LV2" name="GxMultiBandCompressor" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_mbcompressor_#_mbcompressor_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -525,11 +525,11 @@
   </plugin>
   <plugin backend="LV2" name="GxMultiBandDelay" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_mbdelay_#_mbdelay_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -540,11 +540,11 @@
   </plugin>
   <plugin backend="LV2" name="GxMultiBandDistortion" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_mbdistortion_#_mbdistortion_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -555,11 +555,11 @@
   </plugin>
   <plugin backend="LV2" name="GxMultiBandEcho" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_mbecho_#_mbecho_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -570,11 +570,11 @@
   </plugin>
   <plugin backend="LV2" name="GxMultiBandReverb" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_mbreverb_#_mbreverb_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -585,11 +585,11 @@
   </plugin>
   <plugin backend="LV2" name="GxMole" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_mole_#_mole_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -600,11 +600,11 @@
   </plugin>
   <plugin backend="LV2" name="GxMuff" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_muff_#_muff_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -615,11 +615,11 @@
   </plugin>
   <plugin backend="LV2" name="GxMXR Distortion" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_mxrdist_#_mxrdist_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -630,11 +630,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxoc_2" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_oc_2_#_oc_2_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -645,11 +645,11 @@
   </plugin>
   <plugin backend="LV2" name="GxPhaser" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_phaser#_phaser" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -660,11 +660,11 @@
   </plugin>
   <plugin backend="LV2" name="GxRangeMaster" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_rangem_#_rangem_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -675,11 +675,11 @@
   </plugin>
   <plugin backend="LV2" name="GxRedeye Big Chump" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_redeye#bigchump" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -690,11 +690,11 @@
   </plugin>
   <plugin backend="LV2" name="GxRedeye Chump" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_redeye#chump" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -705,11 +705,11 @@
   </plugin>
   <plugin backend="LV2" name="GxRedeye Vibro Chump" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_redeye#vibrochump" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -720,11 +720,11 @@
   </plugin>
   <plugin backend="LV2" name="GxReverb-Stereo" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_reverb_stereo#_reverb_stereo" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -737,11 +737,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxroom_simulator" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_room_simulator_#_room_simulator_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -752,11 +752,11 @@
   </plugin>
   <plugin backend="LV2" name="GxScreamingBird" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_scream_#_scream_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -767,11 +767,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxshimmizita" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_shimmizita_#_shimmizita_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -784,11 +784,11 @@
   </plugin>
   <plugin backend="LV2" name="Gx Studio Preamp Mono" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -799,11 +799,11 @@
   </plugin>
   <plugin backend="LV2" name="Gx Studio Preamp Stereo" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_studiopre_st#studiopre_st" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -816,11 +816,11 @@
   </plugin>
   <plugin backend="LV2" name="GxSustainer" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_susta_#_susta_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -831,11 +831,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxswitched_tremolo" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_switched_tremolo_#_switched_tremolo_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -846,11 +846,11 @@
   </plugin>
   <plugin backend="LV2" name="GxTremolo" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_tremolo#_tremolo" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -861,11 +861,11 @@
   </plugin>
   <plugin backend="LV2" name="Gxvibe" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_vibe_#_vibe_" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -878,11 +878,11 @@
   </plugin>
   <plugin backend="LV2" name="GxvibeMono" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_vibe_#_vibe_mono" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -893,11 +893,11 @@
   </plugin>
   <plugin backend="LV2" name="Gx w20" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_w20#w20" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -908,11 +908,11 @@
   </plugin>
   <plugin backend="LV2" name="GxZita_rev1-Stereo" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gx_zita_rev1_stereo#_zita_rev1_stereo" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -925,11 +925,11 @@
   </plugin>
   <plugin backend="LV2" name="GxAutoWah" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxautowah#autowah" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -940,11 +940,11 @@
   </plugin>
   <plugin backend="LV2" name="GxWah" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxautowah#wah" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -955,11 +955,11 @@
   </plugin>
   <plugin backend="LV2" name="GxBooster" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxbooster#booster" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -970,11 +970,11 @@
   </plugin>
   <plugin backend="LV2" name="GxEchoCat" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxechocat#echocat" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -985,11 +985,11 @@
   </plugin>
   <plugin backend="LV2" name="GxMetalAmp" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxmetal_amp#metal_amp" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -1000,11 +1000,11 @@
   </plugin>
   <plugin backend="LV2" name="GxMetalHead" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxmetal_head#metal_head" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -1015,11 +1015,11 @@
   </plugin>
   <plugin backend="LV2" name="GxTape" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxtape#tape" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -1030,11 +1030,11 @@
   </plugin>
   <plugin backend="LV2" name="Gx Tape Stereo" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxtape_st#tape" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='OutL' />
@@ -1047,11 +1047,11 @@
   </plugin>
   <plugin backend="LV2" name="GxTiltTone" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxtilttone#tilttone" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -1062,11 +1062,11 @@
   </plugin>
   <plugin backend="LV2" name="GxTubeScreamer" category="Effect" developer="Guitarix team" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxts9#ts9sim" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -1077,11 +1077,11 @@
   </plugin>
   <plugin backend="LV2" name="GxTubeDelay" category="Effect" developer="Hermann Meyer" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxtubedelay#tubedelay" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -1092,11 +1092,11 @@
   </plugin>
   <plugin backend="LV2" name="GxTubeTremelo" category="Effect" developer="Hermann Meyer" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxtubetremelo#tubetremelo" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -1107,11 +1107,11 @@
   </plugin>
   <plugin backend="LV2" name="GxTubeVibrato" category="Effect" developer="Hermann Meyer" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxtubevibrato#tubevibrato" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />
@@ -1122,11 +1122,11 @@
   </plugin>
   <plugin backend="LV2" name="GxTuner" category="Effect" developer="Hermann Meyer" unique-id="lv2:http://guitarix.sourceforge.net/plugins/gxtuner#tuner" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Out' />

@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'org.androidaudioplugin.ports.lv2.guitarix'
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId "org.androidaudioplugin.ports.lv2.guitarix"
@@ -47,14 +47,20 @@ android {
 }
 
 dependencies {
-    implementation libs.aap.core
-    implementation libs.aap.lv2
-    implementation libs.aap.ui.compose
-    implementation libs.aap.ui.web
+    // FIXME: the project structure should not be like this, but the buggy build system results in
+    //  this inconsistency: https://github.com/atsushieno/aap-core/issues/172#issuecomment-1716034775
+    //implementation libs.aap.lv2
+    //implementation libs.aap.core
+    //implementation libs.aap.ui.compose.app
+    //implementation libs.aap.ui.web
+    implementation project(":androidaudioplugin-lv2")
+    implementation project(":androidaudioplugin")
+    implementation project(":androidaudioplugin-ui-compose-app")
+    implementation project(":androidaudioplugin-ui-web")
+
+    androidTestImplementation project(":androidaudioplugin-testing")
 
     testImplementation libs.junit
-    //androidTestImplementation libs.aap.core
-    androidTestImplementation libs.aap.testing
     androidTestImplementation libs.test.core
     androidTestImplementation libs.test.rules
     androidTestImplementation libs.test.runner
