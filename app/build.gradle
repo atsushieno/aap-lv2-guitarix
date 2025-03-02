@@ -34,6 +34,13 @@ android {
         prefab true
     }
 
+    externalNativeBuild {
+        cmake {
+            version libs.versions.cmake.get()
+            path "src/main/cpp/CMakeLists.txt"
+        }
+    }
+
     packagingOptions{
         if (enable_asan)
             jniLibs.useLegacyPackaging = true
@@ -49,7 +56,6 @@ dependencies {
     implementation libs.aap.core
     implementation libs.aap.ui.compose.app
     implementation libs.aap.ui.web
-    implementation libs.libcxx.provider
     androidTestImplementation libs.aap.testing
     //  If you want to test aap-core and aap-lv2 locally, switch to these local references
     //  (along with settings.gradle.kts changes)

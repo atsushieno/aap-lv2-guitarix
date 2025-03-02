@@ -16,6 +16,8 @@ do
     # And then copy native libs of LV2 plugins for each ABI.
     mkdir -p app/src/main/jniLibs/$abi
     cp -R dependencies/guitarix-deps/dist/$abi/lib/lv2/*/*.so app/src/main/jniLibs/$abi/
+    # ... except for libc++_shared.so which causes ODR issues.
+    rm app/src/main/jniLibs/$abi/libc++_shared.so
 done
 
 # copy manifests
@@ -25,10 +27,11 @@ cp -R dependencies/guitarix-deps/dist/x86/lib/lv2/*.lv2 app/src/main/assets/lv2/
 rm app/src/main/assets/lv2/*/*.so
 
 
+# <DEPRECATED> we do not need this step anymore.
 # import metadata
-mkdir -p app/src/main/assets/lv2
-mkdir -p app/src/main/res/xml
-external/aap-lv2/tools/aap-import-lv2-metadata/build/aap-import-lv2-metadata \
-        app/src/main/assets/lv2 \
-        app/src/main/res/xml
-
+#mkdir -p app/src/main/assets/lv2
+#mkdir -p app/src/main/res/xml
+#external/aap-lv2/tools/aap-import-lv2-metadata/build/aap-import-lv2-metadata \
+#        app/src/main/assets/lv2 \
+#        app/src/main/res/xml
+# </DEPRECATED>
